@@ -5,6 +5,13 @@ public class Pokemon {
     protected Integer atk;
     protected String type;
 
+    /**
+     * Constructeur Pokemon
+     * @param nom nom du pokémon
+     * @param hp Health point du pokémon
+     * @param atk Attaque du pokémon
+     * @param type Type du Pokémon
+     */
     public Pokemon(String nom, Integer hp, Integer atk, String type) {
         this.nom = nom;
         this.hp = hp;
